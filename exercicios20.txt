@@ -1,0 +1,5 @@
+1- background: linear-gradient().
+
+2- Errado, é melhor que o css esteja em um arquivo separado.
+
+3- A unidade em pixels é fixa/estatica, ja o percentual é relativo, baseado no pai.
