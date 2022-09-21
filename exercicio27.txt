@@ -1,0 +1,5 @@
+1- Uma url é um conjunto de elementos que correspondem ao protocolo http e ao endereço de dominio e suas páginas agregadas.
+
+2- Hyper Text Transfer Protocol, um protocolo que faz requisição ao servidor para carregar a página.
+
+3- São prefixos que navegadores dispõe no css para disponibilizar funções em fase de testes.
