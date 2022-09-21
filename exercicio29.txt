@@ -1,0 +1,8 @@
+1- A unidade de medida em vai pegar a proporção do pai, ja a rem vai pegar do root(html)
+
+2- utilizando -- de preferencia no seletor :root, 
+exemplo:
+
+:root {
+    --backgroud-padrao : black;
+}
