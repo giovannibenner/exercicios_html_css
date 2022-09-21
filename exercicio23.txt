@@ -1,0 +1,5 @@
+1- O body é o pai de todos elementos, também conhecido como viewport, seu tamanho depende do cliente.
+
+2- Não, cada navegador possue suas configurações, por isso é importante realizar o reset.
+
+3- Não, só pode existir uma figurecaption dentro de uma figure, por outro lado podem existir diversas tags img dentro do figure.
