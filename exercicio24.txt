@@ -1,0 +1,5 @@
+1- Altera o espaçamento interno do elemento.
+
+2- Não, todos possuem a propriedade estática.
+
+3- Ajuda nos mecanismos de buscas.
