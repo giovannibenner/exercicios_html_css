@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagem {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+
+    background-image: url(img/saude_frutas_banana.jpg);
+    background-size: 25%;
+    background-repeat: repeat-y;
+}
