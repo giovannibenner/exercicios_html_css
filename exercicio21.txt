@@ -1,0 +1,5 @@
+1- Não é verdade, o arquivo pode estar em outra pasta.
+
+2- Também não é verdade, nem todos elementos possuem filhos.
+
+3- 
