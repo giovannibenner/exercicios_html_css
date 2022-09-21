@@ -1,0 +1,5 @@
+1- Sim, pode ser referenciado, podendo ser hierarquico também.
+
+2- Não, o tamanho original permanece o memso, o que muda é a visualização.
+
+3- Não é verdade, a tag que cria títulos é a h1 até h6.
