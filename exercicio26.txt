@@ -1,0 +1,5 @@
+1- Um elemento pode ser referenciado por sua tag, por seu id e por sua classe. Também existe a hierarquia de todos esses tipos de referenciamento.
+
+2- É pra onde levará, o link propriamente dito, pode ser dentro da mesma página até um id usando o "#" ou para outra pagina usando o endereço.
+
+3- nav.
