@@ -1,11 +1,11 @@
 1- Box-shadow, podemos alterar a ocorrencia no eixo x ou eixo y e ainda é possível adicionar um blur na sombra.
 
-2- O metodo em que ele é enviado, seja GET ou POST.
+2- O certificado de segurança SSl.
 
 3- 
 
 <form action="">
-    <input type="text" required placeholder="Digite seu email">
+    <input type="email" required placeholder="Digite seu email">
     <input type="password" req placeholder="Digite sua senha" >
     <input type="submit">
 </form>
