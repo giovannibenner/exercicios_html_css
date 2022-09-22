@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --titulo_principal: #e53935;
+    --font: #434f55;
+    --botao: #2e7d32;
+    --barra_superior: #cfd8dc;
+    --font_padrao: Verdana, arial;
+
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: var(--font_padrao);
+    color: var(--font_padrao);
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+a.go:hover {
+    background-color: var(--titulo_principal);
+    color: white;
+}
+
+.icons-list {
+    margin-right: 5px;
+    font-size: 2rem;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header#top-header {
+    border-bottom: 1px solid var(--barra_superior);
+    height: 60px;
+}
+
+.flex {
+    display: flex;
+}
+
+#top-header h1, #top-header nav {
+    width: 50%;
+}
+
+#top-header h1{
+    color: var(--titulo_principal);
+    font-family: var(--font_padrao);
+    font-size: 2.4rem;
+    align-items: center;
+}
+
+/* #top-header nav {
+    
+} */
+
+#top-header nav#menu ul#list-menu{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav#menu ul#list-menu li.item {
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-cards {
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#section-cards > .card {
+    width: 320px;
+    border: 1px solid black;
+
+    flex-grow: 1;
+}
+
+#section-cards .card .card-img-pizza {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+#section-cards .card .card-img-pizza .img-pizza {
+    width: 100%;
+}
+
+.formTamanhoPizza {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formTamanhoPizza label{
+    width: 30px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+.sub-titulo-pizza {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.formTamanhoPizza .content-controles, .formTamanhoPizza .controle-form-btn {
+    width: 100%;
+}
+
+.controle-form-btn {
+    padding: 10px;
+}
+
+.controle-form-btn .btn {
+    padding: 10px;
+    width: 150px;
+    margin-top: 5px;
+    border: none;
+    background-color: #2e7d32;
+    color: white;
+    cursor: pointer;
+}
+
+.align-center-xy {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 60px;
+    border-top:1px solid var(--barra_superior);
+    margin-top: 10px;
+    /* background-color: yellow; */
+}
+
+.rodape {
+    margin: 0 auto;
+    width: 50%;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rodape-nome {
+    color: var(--titulo_principal);
+    font-size: 1.5rem;
+}
+
+#telefone {
+    font-weight: bold;
+    color: var(--font);
+    font-size: 1.5rem;
+}
